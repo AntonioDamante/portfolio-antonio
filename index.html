@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- ===== Metadados: informações para o navegador e para o Google ===== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Antonio Carlos Damante de Souza | Portfólio</title>
+  <meta name="description" content="Portfólio de Antonio Carlos Damante de Souza, estudante de Análise e Desenvolvimento de Sistemas na Facens, em Boituva/SP, em busca de estágio em TI e suporte técnico.">
+  <meta name="author" content="Antonio Carlos Damante de Souza">
+  <meta name="theme-color" content="#101722">
+
+  <!-- Prévia do link quando for compartilhado (LinkedIn, WhatsApp) -->
+  <meta property="og:title" content="Antonio Carlos Damante de Souza | Portfólio">
+  <meta property="og:description" content="Estudante de Análise e Desenvolvimento de Sistemas na Facens, em busca de estágio em TI e suporte técnico.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Ícone da aba do navegador -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Fontes do Google (sem internet, o site usa fontes do próprio sistema) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap">
+
+  <!-- Nosso CSS e nosso JavaScript (defer = roda depois que o HTML carregar) -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <!-- Link escondido que aparece ao apertar Tab: ajuda quem navega pelo teclado -->
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ===================== CABEÇALHO ===================== -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="Antonio Carlos, voltar ao início">
+        <span class="monogram" aria-hidden="true">AC</span>
+        Antonio Carlos<span class="accent">.</span>
+      </a>
+
+      <!-- Botão do menu: só aparece no celular -->
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="menu" class="menu" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#trajetoria">Trajetória</a>
+        <a class="menu-cta" href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ===================== APRESENTAÇÃO (HERO) ===================== -->
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+
+        <div class="hero-text">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Estudante de Análise e Desenvolvimento de Sistemas</p>
+          <h1>Olá, sou <span class="accent">Antonio Carlos.</span> Construindo meu caminho na tecnologia.</h1>
+          <p class="lead">
+            Estudo Análise e Desenvolvimento de Sistemas na Facens e estou desenvolvendo minha base técnica
+            para iniciar minha carreira em tecnologia. Trago experiência com atendimento, organização de
+            informações e ferramentas digitais.
+          </p>
+          <div class="actions">
+            <a class="button button-primary" href="#projetos">Conheça meus projetos</a>
+            <a class="button button-secondary" href="#contato">Entre em contato</a>
+          </div>
+          <ul class="facts">
+            <li><strong>1</strong> graduação em andamento</li>
+            <li><strong>1</strong> curso técnico concluído</li>
+            <li><strong>2</strong> experiências profissionais</li>
+          </ul>
+        </div>
+
+        <!-- Cartão de resumo: decorativo, mas com informações reais -->
+        <aside class="profile-card" aria-label="Resumo do perfil">
+          <div class="profile-card-head">
+            <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span>resumo.txt</span>
+          </div>
+          <dl class="profile-list">
+            <div><dt>Curso</dt><dd>ADS · Facens · 2026–2029</dd></div>
+            <div><dt>Formação técnica</dt><dd>Assistente Administrativo · SENAI</dd></div>
+            <div><dt>Busco</dt><dd>Estágio em TI / suporte técnico</dd></div>
+            <div><dt>Próximo estudo</dt><dd>HTML5 e CSS3</dd></div>
+            <div><dt>Cidade</dt><dd>Boituva, SP</dd></div>
+          </dl>
+          <p class="profile-status"><span class="dot" aria-hidden="true"></span>Disponível para estágio</p>
+        </aside>
+
+      </div>
+      <div class="container hero-bottom">
+        <span>Boituva, São Paulo, Brasil</span>
+        <span>Portfólio pessoal</span>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE MIM ===================== -->
+    <section class="section section-light" id="sobre">
+      <div class="container split">
+        <div>
+          <p class="eyebrow eyebrow-dark">01 / Sobre mim</p>
+          <h2>Interesse em tecnologia. <span>Experiência no mundo real.</span></h2>
+        </div>
+        <div class="prose">
+          <p>
+            Sou estudante de Análise e Desenvolvimento de Sistemas na Facens, com previsão de conclusão em 2029.
+            Estou construindo meus conhecimentos técnicos e buscando oportunidades para crescer profissionalmente
+            na área de tecnologia.
+          </p>
+          <p>
+            Na portaria e no apoio administrativo, aprendi a atender pessoas com atenção, organizar documentos e
+            planilhas e usar sistemas digitais no dia a dia. Quero levar essa organização e esse cuidado com o
+            atendimento para a área de TI, aprendendo por meio de projetos práticos como este site.
+          </p>
+          <a class="text-link" href="#trajetoria">Ver minha trajetória →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== HABILIDADES ===================== -->
+    <section class="section" id="habilidades">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">02 / Habilidades</p>
+            <h2>Minha base <span>atual.</span></h2>
+          </div>
+          <p>Uma visão honesta do que já conheço hoje. Novas habilidades entram aqui conforme eu estudar e praticar.</p>
+        </div>
+
+        <!-- Para adicionar uma habilidade, copie um <article class="card skill"> inteiro e troque os textos -->
+        <div class="skills-grid">
+          <article class="card skill">
+            <span class="skill-icon" aria-hidden="true">OS</span>
+            <h3>Windows</h3>
+            <p>Instalação de programas e resolução de problemas básicos.</p>
+            <span class="badge">Conhecimento básico</span>
+          </article>
+
+          <article class="card skill">
+            <span class="skill-icon" aria-hidden="true">PC</span>
+            <h3>Hardware</h3>
+            <p>Conhecimento dos componentes básicos de um computador.</p>
+            <span class="badge">Conhecimento básico</span>
+          </article>
+
+          <article class="card skill">
+            <span class="skill-icon" aria-hidden="true">GIT</span>
+            <h3>Git e GitHub</h3>
+            <p>Já utilizei as ferramentas e quero aprofundar a prática com projetos próprios.</p>
+            <span class="badge">Experiência inicial</span>
+          </article>
+
+          <article class="card skill">
+            <span class="skill-icon" aria-hidden="true">DOC</span>
+            <h3>Word e Excel</h3>
+            <p>Nível básico/intermediário, aprendido no curso de Assistente Administrativo do SENAI e usado em rotinas administrativas.</p>
+            <span class="badge">Uso profissional</span>
+          </article>
+
+          <article class="card skill">
+            <span class="skill-icon" aria-hidden="true">SYS</span>
+            <h3>Sistemas de gestão</h3>
+            <p>Uso do Control Condo para registrar e acompanhar encomendas na portaria.</p>
+            <span class="badge">Uso profissional</span>
+          </article>
+
+          <article class="card skill">
+            <span class="skill-icon" aria-hidden="true">ATD</span>
+            <h3>Atendimento</h3>
+            <p>Atendimento a moradores, entregadores e equipe interna, com clareza e organização.</p>
+            <span class="badge">Uso profissional</span>
+          </article>
+        </div>
+
+        <!-- Área "Em desenvolvimento": mude o status quando começar a estudar cada item -->
+        <div class="learning">
+          <h3>Em desenvolvimento</h3>
+          <ul class="learning-list">
+            <li><span>HTML5</span><span class="status">A iniciar</span></li>
+            <li><span>CSS3</span><span class="status">A iniciar</span></li>
+            <li><span>Redes de computadores</span><span class="status">A iniciar</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJETOS ===================== -->
+    <section class="section section-projects" id="projetos">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">03 / Projetos</p>
+            <h2>Aprendizado em <span>construção.</span></h2>
+          </div>
+          <p>Esta área cresce a cada projeto que eu desenvolver e publicar.</p>
+        </div>
+
+        <!-- Projeto 001: este portfólio -->
+        <article class="card project">
+          <div class="project-art" aria-hidden="true">
+            <div class="mini-browser">
+              <div class="mini-browser-bar"><span class="window-dots"><i></i><i></i><i></i></span>portfolio-antonio</div>
+              <div class="mini-browser-body">
+                <small>Projeto pessoal</small>
+                <strong>Meu portfólio<br>na web<span class="accent">.</span></strong>
+                <span class="mini-lines"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <p class="eyebrow">Projeto 001 · Em desenvolvimento</p>
+            <h3>Portfólio pessoal</h3>
+            <p>
+              Site para apresentar minha formação, trajetória e conhecimentos. É meu ponto de partida para
+              aprender HTML5 e CSS3 na prática: cada parte do código está comentada para eu estudar e evoluir.
+            </p>
+            <ul class="tags" aria-label="Tecnologias utilizadas">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Flexbox e Grid</li>
+              <li>Responsivo</li>
+            </ul>
+
+            <!--
+              LINKS DO PROJETO
+              Funcionam quando o repositório "portfolio-antonio" estiver criado e o GitHub Pages ativado.
+              Se mudar o nome do repositório, atualize os dois endereços abaixo.
+            -->
+            <div class="actions">
+              <a class="button button-primary" href="https://antoniodamante.github.io/portfolio-antonio/" target="_blank" rel="noopener noreferrer">Ver demonstração</a>
+              <a class="button button-secondary" href="https://github.com/AntonioDamante/portfolio-antonio" target="_blank" rel="noopener noreferrer">Código no GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Próximos projetos sugeridos, do mais simples ao mais completo -->
+        <h3 class="subhead">Próximos projetos</h3>
+        <div class="ideas-grid">
+          <article class="card idea">
+            <small>Próximo 01 · HTML</small>
+            <h4>Currículo em HTML</h4>
+            <p>Meu currículo como página, usando só HTML semântico: títulos, listas e links.</p>
+          </article>
+          <article class="card idea">
+            <small>Próximo 02 · HTML + CSS</small>
+            <h4>Guia de componentes do PC</h4>
+            <p>Página com cards explicando processador, memória e armazenamento, praticando Grid e cores.</p>
+          </article>
+          <article class="card idea">
+            <small>Próximo 03 · CSS responsivo</small>
+            <h4>Central de ajuda do Windows</h4>
+            <p>Perguntas frequentes de suporte técnico, com layout para celular e computador.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FORMAÇÃO E EXPERIÊNCIA ===================== -->
+    <section class="section section-light" id="trajetoria">
+      <div class="container">
+        <p class="eyebrow eyebrow-dark">04 / Trajetória</p>
+        <h2>Formação e <span>experiência.</span></h2>
+
+        <ol class="timeline">
+          <li>
+            <p class="timeline-date">2026 — previsão 2029</p>
+            <div>
+              <h3>Análise e Desenvolvimento de Sistemas</h3>
+              <p class="timeline-place">Centro Universitário Facens</p>
+              <p>Graduação em andamento.</p>
+            </div>
+          </li>
+          <li>
+            <p class="timeline-date">Fev. 2026 — atual</p>
+            <div>
+              <h3>Portaria e atendimento</h3>
+              <p class="timeline-place">Associação Portal dos Pássaros · Boituva/SP</p>
+              <p>Atendimento a moradores e entregadores, recebimento e registro de encomendas e uso do sistema Control Condo.</p>
+            </div>
+          </li>
+          <li>
+            <p class="timeline-date">2025 — 2026</p>
+            <div>
+              <h3>Jovem Aprendiz — Apoio Administrativo</h3>
+              <p class="timeline-place">Zanchetta Alimentos · Boituva/SP</p>
+              <p>Organização de documentos, atualização de planilhas, atendimento interno e apoio a rotinas administrativas.</p>
+            </div>
+          </li>
+          <li>
+            <p class="timeline-date">Concluído em 2025</p>
+            <div>
+              <h3>Aprendizagem Industrial — Assistente Administrativo</h3>
+              <p class="timeline-place">Escola SENAI “Ítalo Bologna” · Itu/SP</p>
+              <p>Curso concluído com aproveitamento (janeiro a dezembro de 2025), incluindo rotinas administrativas, Word e Excel.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== CONTATO ===================== -->
+    <section class="section" id="contato">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">05 / Contato</p>
+          <h2>Vamos conversar <span>sobre oportunidades?</span></h2>
+          <p class="lead">Estou em busca de estágio em TI e suporte técnico. Fale comigo por e-mail ou pelo LinkedIn.</p>
+        </div>
+
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:acdamante@gmail.com">
+              <span><small>E-mail</small><strong>acdamante@gmail.com</strong></span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/antonio-carlos-damante-de-souza-3b718b293/" target="_blank" rel="noopener noreferrer">
+              <span><small>LinkedIn</small><strong>Antonio Carlos Damante de Souza</strong></span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/AntonioDamante" target="_blank" rel="noopener noreferrer">
+              <span><small>GitHub</small><strong>github.com/AntonioDamante</strong></span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#inicio" aria-label="Antonio Carlos, voltar ao início">
+        <span class="monogram" aria-hidden="true">AC</span>
+        Antonio Carlos<span class="accent">.</span>
+      </a>
+      <ul class="footer-links">
+        <li><a href="mailto:acdamante@gmail.com">E-mail</a></li>
+        <li><a href="https://www.linkedin.com/in/antonio-carlos-damante-de-souza-3b718b293/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://github.com/AntonioDamante" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="#inicio">Voltar ao topo ↑</a></li>
+      </ul>
+      <!-- O ano é atualizado automaticamente pelo js/script.js -->
+      <p>© <span id="ano">2026</span> Antonio Carlos Damante de Souza</p>
+    </div>
+  </footer>
+</body>
+</html>
